@@ -14,12 +14,7 @@ Responsive Design: Built with Tailwind CSS for a seamless experience on any devi
 
 📸 Screenshots
 <img width="1451" height="665" alt="image" src="https://github.com/user-attachments/assets/9eb23ef6-647b-410f-bac7-73cc96617371" />
-<img width="1451" height="665" alt="image" src="https://github.com/user-attachments/assets/9eb23ef6-647b-410f-bac7-73cc96617371" />
-
 <img width="1451" height="654" alt="image" src="https://github.com/user-attachments/assets/d6be749e-229e-44ee-9328-04e3d59b16c1" />
-<img width="1451" height="654" alt="image" src="https://github.com/user-attachments/assets/d6be749e-229e-44ee-9328-04e3d59b16c1" />
-
-<img width="1443" height="660" alt="image" src="https://github.com/user-attachments/assets/6478d3ca-943c-4354-bbea-58a63dc56f67" />
 <img width="1443" height="660" alt="image" src="https://github.com/user-attachments/assets/6478d3ca-943c-4354-bbea-58a63dc56f67" />
 
 
