@@ -1,16 +1,59 @@
-# React + Vite
+AgentFlow - Agentic Workflow Builder 🚀
+AgentFlow is a powerful, visual tool designed to build, visualize, and execute chains of AI agents. It allows users to create complex workflows where the output of one AI model serves as the context for the next, enabling sophisticated automation and reasoning tasks.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Builder Interface
 
-Currently, two official plugins are available:
+✨ Features
+Visual Workflow Builder: Intuitive interface to create multi-step AI workflows. Define prompts, select models, and set success criteria.
+Chained Execution: Seamlessly pass context ({{context}}) from one step to the next.
+Real-time Execution Status: Watch your workflow run step-by-step with live status updates.
+Execution History: valid Track past runs, view success/failure rates, and inspect outputs.
+Dark Mode: Sleek, developer-friendly dark mode UI.
+Responsive Design: Built with Tailwind CSS for a seamless experience on any device.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+📸 Screenshots
+<img width="1451" height="665" alt="image" src="https://github.com/user-attachments/assets/9eb23ef6-647b-410f-bac7-73cc96617371" />
+<img width="1451" height="665" alt="image" src="https://github.com/user-attachments/assets/9eb23ef6-647b-410f-bac7-73cc96617371" />
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<img width="1451" height="654" alt="image" src="https://github.com/user-attachments/assets/d6be749e-229e-44ee-9328-04e3d59b16c1" />
+<img width="1451" height="654" alt="image" src="https://github.com/user-attachments/assets/d6be749e-229e-44ee-9328-04e3d59b16c1" />
 
-## Expanding the ESLint configuration
+<img width="1443" height="660" alt="image" src="https://github.com/user-attachments/assets/6478d3ca-943c-4354-bbea-58a63dc56f67" />
+<img width="1443" height="660" alt="image" src="https://github.com/user-attachments/assets/6478d3ca-943c-4354-bbea-58a63dc56f67" />
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+Execution History
+View past workflow runs and their status at a glance. Execution History
+
+Live Execution Status
+Monitor step-by-step progress with detailed output and validation results. Execution Status
+
+🛠️ Tech Stack
+Framework: React (Vite)
+Styling: Tailwind CSS, Lucide React (Icons)
+Animations: Framer Motion
+State Management: React Hooks
+Backend Integration: REST API (FastAPI)
+🚀 Getting Started
+Clone the repository
+
+bash
+git clone https://github.com/nivethitha-code/23pw18_Unbound_hackathon_frontend.git
+cd 23pw18_Unbound_hackathon_frontend
+Install dependencies
+
+bash
+npm install
+Setup Environment Variables Create a 
+.env
+ file in the root directory:
+
+env
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_KEY=your_supabase_anon_key
+VITE_API_URL=http://localhost:8000
+Run the development server
+
+bash
+npm run dev
